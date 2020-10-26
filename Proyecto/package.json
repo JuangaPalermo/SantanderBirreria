@@ -1,0 +1,22 @@
+{
+  "name": "meet-beer",
+  "version": "1.0.0",
+  "description": "crear meetings y calcular la bebida",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Palermo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi-date": "^2.0.1",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "joi": "^17.2.1",
+    "joi-objectid": "^3.0.1",
+    "moment": "^2.27.0",
+    "mongodb": "^3.6.2"
+  }
+}
